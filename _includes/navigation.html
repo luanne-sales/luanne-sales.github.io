@@ -19,10 +19,16 @@
 
   <ul id="navigation-list">
     <li>
-      <a href="/">Home</a>
+      <a href="/" 
+      {% if page.url == "/" %} style="color: #D0AE5E;" {% endif %} >
+        Home
+      </a>
     </li>
     <li>
-      <a href="/about.html">Sobre</a>
+      <a href="/about.html"
+      {% if page.url == "/about.html" %} style="color: #D0AE5E;" {% endif %} > 
+        Sobre
+      </a>
     </li>
     <li>
       <a href="/blog">Blog</a>
