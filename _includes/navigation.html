@@ -22,7 +22,7 @@
     {% for item in site.data.navigation %}
       <li>
         <a href="{{ item.link }}" 
-        {% if page.url == item.link %} style="color: #D0AE5E;" {% endif %}>
+        class="{% if page.url == item.link %}current{% else %}unselected{% endif %}">
           {{ item.name }}
         </a>
       </li>

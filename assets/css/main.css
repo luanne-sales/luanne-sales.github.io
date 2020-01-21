@@ -104,14 +104,17 @@ body header div a img {
   margin: 20px;
 }
 
-#navigation-list a {
+#navigation-list a{
   font-size: 25px;
   text-decoration: none;
-  color: #444444;
 }
 
-#navigation-list a:hover {
+#navigation-list a:hover, .current {
   color: #D0AE5E;
+}
+
+.unselected{
+  color: #444444;
 }
 
 /* Main
