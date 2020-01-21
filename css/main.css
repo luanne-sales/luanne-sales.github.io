@@ -1,0 +1,247 @@
+html, body, body main {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family:  Helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --header-height: 100px;
+}
+
+/* Header
+__________________________________________*/
+
+body header {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 3px  #000000;
+    height: var(--header-height);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+}
+
+#logo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo div{
+  font-family: Gruppo, 'Nixie One', cursive;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#logo1{
+  font-size: 20px;
+  color: #ba9a39;
+  font-weight: 800;
+}
+
+#logo2{
+  font-size: 16px;
+  color: #746226;
+  font-weight: 500;
+}
+
+body header div a img {
+  width: 80px;
+  height: 80px;
+}
+
+#navigation-list{
+  display: none;
+  list-style-type: none;
+}
+
+.vertical-navigation-list{
+  display: block !important; /*needs to override #navigation-list 'none */
+}
+
+.horizontal-navigation-list {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#menu-button {
+  display: none;
+  background-color: #FFFFFF;
+  border: #444444 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 1px  #000000;
+}
+
+#menu-button div {
+  width: 35px;
+  height: 5px;
+  background-color: #444444;
+  margin: 6px 0;
+  border-radius: 3px;
+}
+
+#navigation-list li {
+  margin: 20px;
+}
+
+#navigation-list a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #444444;
+}
+
+#navigation-list a:hover {
+  color: #D0AE5E;
+}
+
+/* Main
+_______________________________________________*/
+
+/* body main {
+  margin-top: var(--header-height);
+} */
+
+#space{
+  height: var(--header-height);;
+}
+
+#side-bar{
+  display: none;
+  height: 300px;
+  width: 300px;
+  background-color: #f4f7f8;
+  z-index: 9999;
+  position: fixed;
+  top: var(--header-height)
+}
+
+.parallax-img{
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#first-img {
+  background-image: url(../img/advogada.jpg);
+  background-position: top;
+}
+
+#second-img {
+  background-image: url(../img/gray\ pillars.jpg)
+}
+
+#presentationLayer{
+  background-color: hsla(0, 0%, 0%, .35);
+  height: 100%;
+}
+
+#presentation{
+  text-shadow: 0 0 50px hlsa(0, 0%, 0%, .4);
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+#presentation h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#whats-btn{
+  border: #57bd64 1px solid;
+  border-radius: 30px;
+  background-color: #46bf56;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+#whats-btn:visited{
+  color: white;
+}
+
+article.intro-text {
+  height: 300px;
+  background-color: #FFFFFF;
+}
+
+.intro-text {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.intro-text div{
+  width: 75%;
+  text-align: center;
+}
+
+.intro-text h2 {
+  font-size: 32px;
+}
+
+.intro-text p{
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+}
+
+.cards-section{
+  padding-top: 50px;
+  background-color: #f4f7f8;
+  width: 100%;
+}
+
+#cards-container{
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 'card-1 card-2 card-3 card-4 ' 'card-5 card-6 card-7 card-8';
+  height: 400px;
+  padding: 20px 20px;
+} 
+
+#cards-container section {
+  background-color: #D0AE5E;
+}
+
+#card-1 {grid-area: card-1}
+#card-2 {grid-area: card-2}
+#card-3 {grid-area: card-3}
+#card-4 {grid-area: card-4}
+#card-5 {grid-area: card-5}
+#card-6 {grid-area: card-6}
+#card-7 {grid-area: card-7}
+#card-8 {grid-area: card-8}
+
+/* Footer 
+________________________________________________*/
+
+main footer{
+  width: 100%;
+  background-color: #22242C;
+  color: #f4f7f8;
+  text-align: center;
+  line-height: 100px;
+}

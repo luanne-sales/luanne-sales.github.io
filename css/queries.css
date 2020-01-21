@@ -1,0 +1,71 @@
+/* Media queries
+----------------------------*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  body header nav ul a {
+    font-size: 20px;
+  }
+  #cards-container{
+    gap: 20px;
+    grid-template-areas: 'card-1''card-2' 'card-3' 'card-4' 'card-5' 'card-6' 'card-7' 'card-8';
+    height: 1800px;
+    padding: 20px 20px;
+  } 
+
+  #menu-button{
+    display: block;
+  }
+
+  #presentation{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body header nav ul a {
+    font-size: 20px;
+  }
+  #cards-container{
+    gap: 20px;
+    grid-template-areas: 'card-1 card-2' 'card-3 card-4 ' 'card-5 card-6' 'card-7 card-8';
+    height: 900px;
+    padding: 20px 20px;
+  } 
+
+  #menu-button{
+    display: block;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #cards-container{
+    gap: 20px;
+    grid-template-areas: 'card-1 card-2' 'card-3 card-4 ' 'card-5 card-6' 'card-7 card-8';
+    height: 900px;
+    padding: 20px 20px;
+  } 
+  #side-bar{ display: none !important; /* hides the side bar at window on resize */ } 
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #side-bar{ display: none !important; }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #side-bar{ display: none !important; }
+  #presentation{
+    padding-top: 100px;
+    margin-left: 150px;
+    /* color: #444444; */
+  }
+  #presentation h2{
+    font-size: 56px;
+    margin-bottom: 0;
+  }
+}
