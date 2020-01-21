@@ -17,25 +17,16 @@
 
   </nav>
 
+
   <ul id="navigation-list">
-    <li>
-      <a href="/" 
-      {% if page.url == "/" %} style="color: #D0AE5E;" {% endif %} >
-        Home
-      </a>
-    </li>
-    <li>
-      <a href="/about.html"
-      {% if page.url == "/about.html" %} style="color: #D0AE5E;" {% endif %} > 
-        Sobre
-      </a>
-    </li>
-    <li>
-      <a href="/blog">Blog</a>
-    </li>
-    <li>
-      <a href="/contato">Contato</a>
-    </li>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}" 
+        {% if page.url == item.link %} style="color: #D0AE5E;" {% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 
 </header>
