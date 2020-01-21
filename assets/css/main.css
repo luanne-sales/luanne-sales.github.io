@@ -145,12 +145,12 @@ _______________________________________________*/
 }
 
 #first-img {
-  background-image: url(../img/advogada.jpg);
+  background-image: url(/assets/img/advogada.jpg);
   background-position: top;
 }
 
 #second-img {
-  background-image: url(../img/gray\ pillars.jpg)
+  background-image: url(/assets/img/gray\ pillars.jpg)
 }
 
 #presentationLayer{
