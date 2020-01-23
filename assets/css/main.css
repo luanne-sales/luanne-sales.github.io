@@ -220,23 +220,59 @@ article.intro-text {
 #cards-container{
   display: grid;
   gap: 20px;
-  grid-template-areas: 'card-1 card-2 card-3 card-4 ' 'card-5 card-6 card-7 card-8';
-  height: 400px;
+  grid-template-areas: 'card-1 card-2 card-3' 'card-4 card-5 card-6';
   padding: 20px 20px;
+  justify-content: center;
+  align-content: center;
 } 
 
 #cards-container section {
   background-color: #D0AE5E;
 }
 
-#card-1 {grid-area: card-1}
-#card-2 {grid-area: card-2}
-#card-3 {grid-area: card-3}
-#card-4 {grid-area: card-4}
-#card-5 {grid-area: card-5}
-#card-6 {grid-area: card-6}
-#card-7 {grid-area: card-7}
-#card-8 {grid-area: card-8}
+#cards-container section div{
+  height: 100%;
+  width: 100%;
+  background: hsla(0, 0%, 0%, .35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  height: 180px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f4f7f8;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#card-1 {
+  grid-area: card-1;
+  background-image: url(/assets/img/civil.png);
+}
+#card-2 {
+  grid-area: card-2;
+  background-image: url(/assets/img/trabalho.png);
+}
+#card-3 {
+  grid-area: card-3;
+  background-image: url(/assets/img/administrativo.png);
+}
+#card-4 {
+  grid-area: card-4;
+  background-image: url(/assets/img/familia.png);
+}
+#card-5 {
+  grid-area: card-5;
+  background-image: url(/assets/img/imobiliario.png);
+}
+#card-6 {
+  grid-area: card-6;
+  background-image: url(/assets/img/previdenciario.png);
+}
 
 /* Footer 
 ________________________________________________*/

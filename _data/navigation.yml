@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: Sobre
+  link: /sobre.html
 - name: Blog
   link: /blog.html
 - name: Contato
