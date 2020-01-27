@@ -6,7 +6,6 @@ description: Luanne Santos Sales Advogada Montes Claros
 ---
 <main>
 
-
   <div class="parallax-img" id="first-img">
     <div id="presentationLayer">
       <div id="presentation">
@@ -24,6 +23,7 @@ description: Luanne Santos Sales Advogada Montes Claros
   </div>
 
   <article class="cards-section">
+
     <div class="intro-text">
       <div>
         <h2>Áreas de atuação</h2>
@@ -40,6 +40,23 @@ description: Luanne Santos Sales Advogada Montes Claros
     </div>
   </article>
 
+  <article id="blog-cards">
+    <div class="intro-text">
+      <div>
+        <h2>Blog</h2>
+        <p>Últimas postagens</p>
+      </div>
+    </div>
+    <div id="blog-cards-container">
+      {% for post in site.posts limit:3 %}
+          <section>
+            <img src="{{ post.image_path }}" alt="{{ post.image_description }}"> 
+            <a class="blog-card-link" href="{{ post.url }}">{{ post.title }}</a>
+            <div class="excerpt">{{ post.excerpt }}</div>
+            <div class="leia-mais-div" ><a class="leia-mais" href="{{ post.url }}">Leia Mais</a></div>
+          </section>
+      {% endfor %}
+    </div>
+  </article>
 
-  <footer>Matheus Alves Nunes - 2019</footer>
 </main>

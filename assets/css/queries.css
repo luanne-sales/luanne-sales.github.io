@@ -14,10 +14,19 @@
     display: block;
   }
 
+  #first-img{
+    background-image: url(/assets/img/advogada-1000x1600.jpg);
+    height: 60vh;
+  }
+
   #presentation{
     font-size: 20px;
     padding-top: 30px;
     text-align: center;
+  }
+
+  #blog-cards-container{
+    grid-template-columns: 300px;
   }
 }
 
@@ -33,6 +42,20 @@
   #menu-button{
     display: block;
   }
+
+  #first-img{
+    height: 70vh;
+  }
+
+  #presentation{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  #blog-cards-container{
+    grid-template-columns: 300px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -41,11 +64,33 @@
     grid-template-areas: 'card-1 card-2' 'card-3 card-4 ' 'card-5 card-6';
   } 
   #side-bar{ display: none !important; /* hides the side bar at window on resize */ } 
+
+  #first-img{
+    height: 50vh;
+  }
+
+  #presentation{
+    font-size: 24px;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  #blog-cards-container{
+    grid-template-columns: 300px 300px;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #side-bar{ display: none !important; }
+  #first-img{
+    height: 60vh;
+  }
+  #presentation{
+    padding-top: 100px;
+    margin-left: 150px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -54,7 +99,6 @@
   #presentation{
     padding-top: 100px;
     margin-left: 150px;
-    /* color: #444444; */
   }
   #presentation h2{
     font-size: 56px;
