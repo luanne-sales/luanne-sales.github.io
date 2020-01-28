@@ -28,6 +28,10 @@
   #blog-cards-container{
     grid-template-columns: 300px;
   }
+
+  #sobre-main>article>div{
+    padding: 40px 50px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -56,6 +60,10 @@
   #blog-cards-container{
     grid-template-columns: 300px;
   }
+
+  #sobre-main>article>div{
+    padding: 40px 50px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -79,6 +87,9 @@
     grid-template-columns: 300px 300px;
   }
 
+  #sobre-main>article>div{
+    padding: 40px 50px;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
