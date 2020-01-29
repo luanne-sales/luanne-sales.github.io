@@ -29,8 +29,12 @@
     grid-template-columns: 300px;
   }
 
-  #sobre-main>article>div{
+  #sobre-content{
     padding: 40px 50px;
+  }
+
+  #contato-1, #contato-2{
+    width: 300px;
   }
 }
 
@@ -61,7 +65,7 @@
     grid-template-columns: 300px;
   }
 
-  #sobre-main>article>div{
+  #sobre-content{
     padding: 40px 50px;
   }
 }
@@ -87,8 +91,12 @@
     grid-template-columns: 300px 300px;
   }
 
-  #sobre-main>article>div{
+  #sobre-content{
     padding: 40px 50px;
+  }
+
+  #contato-1, #contato-2{
+    width: 300px;
   }
 }
 

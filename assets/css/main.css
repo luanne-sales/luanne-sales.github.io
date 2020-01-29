@@ -341,10 +341,38 @@ _______________________________________________*/
   color: #ffffff;
 }
 
-/* Sobre 
+/* Sobre e Contato
 ________________________________________________*/
 #sobre-header{
   background-image: url(/assets/img/sobre.jpg);
+}
+
+#contato-header{
+  background-image: url(/assets/img/typewritter.jpg);
+}
+
+#contato-flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#contato-1, #contato-2{
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.contato-flex-inner{
+  display: flex;
+  justify-content: left;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.fa-2x{
+  margin-right: 20px;
+}
+
+.side-header{
   height: 300px;
   background-position: top;
   background-repeat: no-repeat;
@@ -354,26 +382,44 @@ ________________________________________________*/
   text-align: center;
 }
 
-#sobre-header>div{
+.side-header>div{
   background-color: hsla(0, 0%, 0%, .35);
   height: 100%;
 }
 
-#sobre-header h2{
+.side-header h2{
   padding-top: 125px;
   margin-top: 0;
 }
 
-#sobre-main>article{
+.side-main>article{
   color: #22242C;
-  /* background-color: #f0f0f0; */
   height: 100%;
   font-size: 18px;
+}
+
+#sobre-content{
+  padding: 50px 100px;
   text-align: justify;
 }
 
-#sobre-main>article>div{
-  padding: 50px 100px;
+/* Contato Form 
+________________________________________________*/
+
+.input{
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c7c7c7;
+  width: 250px;
+}
+
+input.input{
+  height: 30px;
+}
+
+button.leia-mais{
+  margin-left: 10px;
 }
 
 
