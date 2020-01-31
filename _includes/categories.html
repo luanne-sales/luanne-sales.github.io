@@ -1,0 +1,10 @@
+  <div class="blog-categories">
+      <h2>Categorias</h2>
+        {% for category in site.categories %}
+          <a href="">
+            <div class="blog-category-link">
+              <span>{{ category[0] }}</span>
+            </div>
+          </a>
+        {% endfor %}
+  </div>

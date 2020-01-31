@@ -36,6 +36,10 @@
   #contato-1, #contato-2{
     width: 300px;
   }
+
+  #blog-posts{
+    grid-template-columns: 300px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -68,6 +72,10 @@
   #sobre-content{
     padding: 40px 50px;
   }
+
+  #blog-posts{
+    grid-template-columns: 300px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -97,6 +105,9 @@
 
   #contato-1, #contato-2{
     width: 300px;
+  }
+  #blog-posts{
+    grid-template-columns: 300px 300px;
   }
 }
 

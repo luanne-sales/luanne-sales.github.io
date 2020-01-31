@@ -1,9 +1,35 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<!-- <h1>{{ page.title }}</h1>
+<h3>Categoria: {{ page.categories[0] }}</h3>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-<img src="{{ page.image_path }}" alt="{{ page.image_description }}">
+<img src="{{ page.image_path }}.jpg" alt="{{ page.image_description }}">
 
-{{ content }}
+{{ content }} -->
+
+<main class="main-blog">
+
+  {% include categories.html %}
+
+  <div class="post-content">
+
+    <h1>{{ page.title }}</h1>
+
+    <img class="post-hero-img" src="{{ page.image_path }}.jpg" alt="{{ page.image_description }}">
+
+    <h3><a href="" class="link-category">{{ page.categories[0] }}</a></h3>
+    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    <div class="post-text">
+      {{ content }}
+    </div>
+
+<a id="whats-btn" href="https://api.whatsapp.com/send?phone=553899355377">
+  (38) 99935-5377 <i class="fab fa-whatsapp"></i> 
+</a>
+
+  </div>
+
+</main>
