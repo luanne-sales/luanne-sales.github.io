@@ -1,3 +1,5 @@
+---
+---
 /* Media queries
 ----------------------------*/
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -15,7 +17,7 @@
   }
 
   #first-img{
-    background-image: url(/assets/img/advogada-1000x1600.jpg);
+    background-image: url('{{ "/assets/img/advogada-1000x1600.jpg" | relative_url }}');
     height: 60vh;
   }
 

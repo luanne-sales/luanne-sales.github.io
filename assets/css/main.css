@@ -1,3 +1,5 @@
+---
+---
 html, body{
     height: 100%;
     margin: 0;
@@ -124,10 +126,6 @@ body>header div a img {
 /* Main
 _______________________________________________*/
 
-/* body main {
-  margin-top: var(--header-height);
-} */
-
 #space{
   height: var(--header-height);
 }
@@ -152,7 +150,7 @@ _______________________________________________*/
 }
 
 #first-img {
-  background-image: url(/assets/img/advogada-2400x1600.jpg);
+  background-image: url('{{ "/assets/img/advogada-2400x1600.jpg" | relative_url }}');
   background-position: top;
   height: 85vh;
 }
@@ -247,27 +245,27 @@ article.intro-text {
 
 #card-1 {
   grid-area: card-1;
-  background-image: url(/assets/img/civil.png);
+  background-image: url('{{ "/assets/img/civil.png" | relative_url }}');
 }
 #card-2 {
   grid-area: card-2;
-  background-image: url(/assets/img/trabalho.png);
+  background-image: url('{{ "/assets/img/trabalho.png" | relative_url }}');
 }
 #card-3 {
   grid-area: card-3;
-  background-image: url(/assets/img/administrativo.png);
+  background-image: url('{{ "/assets/img/administrativo.png" | relative_url }}');
 }
 #card-4 {
   grid-area: card-4;
-  background-image: url(/assets/img/familia.png);
+  background-image: url('{{ "/assets/img/familia.png" | relative_url }}');
 }
 #card-5 {
   grid-area: card-5;
-  background-image: url(/assets/img/imobiliario.png);
+  background-image: url('{{ "/assets/img/imobiliario.png" | relative_url }}');
 }
 #card-6 {
   grid-area: card-6;
-  background-image: url(/assets/img/previdenciario.png);
+  background-image: url('{{ "/assets/img/previdenciario.png" | relative_url }}');
 }
 
 /* Blog cards
@@ -332,11 +330,11 @@ _______________________________________________*/
 /* Sobre e Contato
 ________________________________________________*/
 #sobre-header{
-  background-image: url(/assets/img/sobre.jpg);
+  background-image: url('{{ "/assets/img/sobre.jpg" | relative_url }}');
 }
 
 #contato-header{
-  background-image: url(/assets/img/typewritter.jpg);
+  background-image: url('{{ "/assets/img/typewritter.jpg" | relative_url }}');
 }
 
 #contato-flex{

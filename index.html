@@ -50,11 +50,11 @@ description: Luanne Santos Sales Advogada Montes Claros
     <div id="blog-cards-container">
       {% for post in site.posts limit:3 %}
           <section>
-            <img src="{{ post.image_path }}-p.jpg" alt="{{ post.image_description }}"> 
-            <a class="blog-card-link" href="{{ post.url }}">{{ post.title }}</a>
+            <img src='{{ post.image_path | append: "-p.jpg" | relative_url }}' alt="{{ post.image_description }}"> 
+            <a class="blog-card-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             <p><a href="" class="link-category">{{ post.categories[0] }}</a></p>
             <div class="excerpt">{{ post.excerpt }}</div>
-            <div class="leia-mais-div" ><a class="leia-mais" href="{{ post.url }}">Leia Mais</a></div>
+            <div class="leia-mais-div" ><a class="leia-mais" href="{{ post.url | relative_url }}">Leia Mais</a></div>
           </section>
       {% endfor %}
     </div>
