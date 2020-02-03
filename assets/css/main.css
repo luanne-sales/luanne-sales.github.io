@@ -287,6 +287,7 @@ _______________________________________________*/
 
 #blog-cards-container section {
   width: 300px;
+  margin-bottom: 15px;
 }
 
 #blog-cards-container section img {
@@ -307,17 +308,17 @@ _______________________________________________*/
 
 .excerpt{
   color: #444444;
+  margin-bottom: 25px;
 }
 
 .leia-mais-div{
-  margin-top: 25px;
-  margin-bottom: 30px;
+  width: 100%;
 }
 
 .leia-mais{
   border: #57bd64 1px solid;
-  border-radius: 24px;
-  padding: 12px;
+  border-radius: 20px;
+  padding: 10px;
   color: #57bd64;
   font-weight: 600;
 }
@@ -406,6 +407,7 @@ input.input{
 
 button.leia-mais{
   margin-left: 10px;
+  background-color: transparent;
 }
 
 
@@ -447,6 +449,7 @@ ________________________________________________*/
   list-style-type: none;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
 .blog-item img {
@@ -457,7 +460,10 @@ ________________________________________________*/
 
 .blog-item p{
   text-align: center;
-  margin: 5px 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right:20px
 }
 
 .blog-item-link{
@@ -511,6 +517,12 @@ ________________________________________________*/
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: column;
+}
+
+.post-whats{
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .post-hero-img{
