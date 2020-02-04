@@ -103,7 +103,10 @@
   #cards-container{
     grid-template-areas: 'card-1 card-2' 'card-3 card-4 ' 'card-5 card-6';
   } 
-  #side-bar{ display: none !important; /* hides the side bar at window on resize */ } 
+
+  #menu-button{
+    display: block;
+  }
 
   #first-img{
     height: 50vh;
@@ -142,7 +145,7 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #side-bar{ display: none !important; }
+  #side-bar{ display: none !important; } /* hides the side bar at window on resize */
   #first-img{
     height: 60vh;
   }

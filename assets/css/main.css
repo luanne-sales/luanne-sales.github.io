@@ -88,6 +88,7 @@ body>header div a img {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 #menu-button {
@@ -132,7 +133,7 @@ _______________________________________________*/
 
 #side-bar{
   display: none;
-  height: 300px;
+  height: 400px;
   width: 300px;
   background-color: #f4f7f8;
   z-index: 9999;
@@ -355,8 +356,13 @@ ________________________________________________*/
   flex-wrap: nowrap;
   align-items: center;
 }
+
 .fa-2x{
   margin-right: 20px;
+}
+
+.fa-hashtag{
+  visibility: hidden;
 }
 
 .side-header{
