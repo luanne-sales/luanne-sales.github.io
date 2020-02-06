@@ -1,8 +1,12 @@
 - name: Home
   link: /
+  dir: /
 - name: Sobre
   link: /sobre.html
+  dir: /sobre.html
 - name: Blog
-  link: /blog.html
+  link: /blog
+  dir: /blog/
 - name: Contato
   link: /contato.html
+  dir: /contato.html

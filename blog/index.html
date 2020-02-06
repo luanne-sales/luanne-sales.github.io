@@ -5,11 +5,12 @@ title: Blog
 <main class="main-blog">
 
   {% include categories.html %}
-  
+
   <div>
+
     <h1>Últimas Postagens</h1>
     <ul id="blog-posts">
-      {% for post in site.posts %}
+      {% for post in paginator.posts %}
         <li class="blog-item">
           <img src="{{ post.image_path | append: '-p.jpg' | relative_url }}" alt="{{ post.image_description }}"> 
           <h2><a class="blog-item-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -19,6 +20,16 @@ title: Blog
         </li>
       {% endfor %}
     </ul>
+
+      <!-- Pagination --> 
+      <nav class="mb-2 mt-2">
+        <ul id="paginator" class="pagination"></ul>
+      </nav>
+
   </div>
+
+  <script type="text/javascript">
+    paginate({{ paginator.page }}, {{ paginator.total_pages }}, '{{ site.url }}')
+  </script>
 
 </main>

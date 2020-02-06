@@ -24,7 +24,7 @@
     {% for item in site.data.navigation %}
       <li>
         <a href="{{ item.link | relative_url }}" 
-        class="{% if page.url == item.link %}current{% else %}unselected{% endif %}">
+        class="{% if page.url == item.dir %}current{% else %}unselected{% endif %}">
           {{ item.name }}
         </a>
       </li>
