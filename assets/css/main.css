@@ -124,6 +124,15 @@ body>header div a img {
   color: #444444;
 }
 
+#nav-social{
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-social div{
+  margin: 3px;
+}
+
 /* Main
 _______________________________________________*/
 
