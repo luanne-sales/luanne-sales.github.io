@@ -29,7 +29,7 @@ title: Blog
   </div>
 
   <script type="text/javascript">
-    paginate({{ paginator.page }}, {{ paginator.total_pages }}, '{{ site.url | relative_url }}')
+    paginate({{ paginator.page }}, {{ paginator.total_pages }}, '{{ site.url | absolute_url }}')
   </script>
 
 </main>
