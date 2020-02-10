@@ -1,7 +1,7 @@
   <div class="blog-categories">
       <h2>Categorias</h2>
         {% for category in site.categories %}
-          <a href="">
+          <a href="{{ category[0] | slugify | relative_url }}">
             <div class="blog-category-link">
               <span>{{ category[0] }}</span>
             </div>
