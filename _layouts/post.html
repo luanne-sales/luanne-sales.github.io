@@ -12,7 +12,7 @@ layout: default
 
     <img class="post-hero-img" src='{{ page.image_path | append: ".jpg" | relative_url }}' alt="{{ page.image_description }}">
 
-    <h3><a href="" class="link-category">{{ page.categories[0] }}</a></h3>
+    <h3 class="post-category"><a href="" class="link-category">{{ page.categories[0] }}</a></h3>
     <p class="post-info">{{ page.date | date_to_string }} - {{ page.author }}</p>
 
     <div class="post-text">

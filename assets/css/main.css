@@ -551,8 +551,15 @@ ________________________________________________*/
   height: 534px;
 }
 
+.post-category{
+  width: 100%;
+  text-align: center;
+}
+
 .post-info{
   font-weight: 600;
+  width: 100%;
+  text-align: center;
 }
 
 .post-text{
