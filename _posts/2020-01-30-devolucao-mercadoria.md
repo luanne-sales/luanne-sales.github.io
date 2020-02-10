@@ -11,7 +11,7 @@ description: Informações sobre devolução de produto
 Quando o consumidor realiza a compra de uma mercadoria, seja pela internet ou em loja física, o desejo é que não necessite devolver o produto. Mas às vezes a devolução ou a troca são necessárias.
 Existem dois motivos pelas quais se realiza a devolução de uma mercadoria: defeito ou arrependimento. 
 
-### DEFEITO
+## DEFEITO
 
 Neste caso  o Código de Defesa do Consumidor (CDC) prevê 02 prazos:
 a)30 dias para produtos duráveis
@@ -32,7 +32,7 @@ Esta  garantia nada mais é que uma estipulação contratual realizada pelo fabr
 
 Mas se o fabricante estipular que o prazo será de 01 ano não poderá posteriormente se negar a cumprir este prazo.
 
-### ARREPENDIMENTO
+## ARREPENDIMENTO
 
 O segundo motivo para devolução de mercadoria é pelo arrependimento.
 

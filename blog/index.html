@@ -15,7 +15,7 @@ title: Blog
           <img src="{{ post.image_path | append: '-p.jpg' | relative_url }}" alt="{{ post.image_description }}"> 
           <h2><a class="blog-item-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p><a href="" class="link-category">{{ post.categories[0] }}</a></p>
-          <p>{{ post.excerpt }}</p>
+          <div class="excerpt">{{ post.excerpt }}</div>
           <div class="leia-mais-div"><a class="leia-mais" href="{{ post.url | relative_url }}">Leia Mais</a></div>
         </li>
       {% endfor %}

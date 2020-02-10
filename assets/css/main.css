@@ -351,7 +351,7 @@ ________________________________________________*/
 #contato-flex{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 #contato-1, #contato-2{
@@ -514,12 +514,14 @@ ________________________________________________*/
 }
 
 .link-category{
-  color: rgb(88, 168, 214);
+  color: rgb(209, 160, 47);
+  /* color: rgb(88, 168, 214); */
   font-weight: 600;
 }
 
 .link-category:hover{
-  color: rgb(0, 68, 255);
+  /* color: rgb(0, 68, 255); */
+  text-decoration: underline;
 }
 
 
@@ -534,6 +536,10 @@ ________________________________________________*/
   flex-direction: column;
 }
 
+.post-content h1{
+  padding-bottom: 30px;
+}
+
 .post-whats{
   width: 100%;
   margin-bottom: 20px;
@@ -545,12 +551,26 @@ ________________________________________________*/
   height: 534px;
 }
 
+.post-info{
+  font-weight: 600;
+}
+
 .post-text{
   margin: 20px 10px;
 }
 
+.post-text h3,.post-text h2{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  padding-top: 30px;
+  letter-spacing: 1.2px;
+}
+
 .post-text p{
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
   text-align: justify;
+  color: #292929;
+  line-height: 2rem;
+  font-size: 21px;
 }
 
 
