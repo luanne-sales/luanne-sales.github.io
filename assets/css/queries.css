@@ -47,7 +47,7 @@
     width: 300px;
   }
 
-  .post-text p{
+  .post-text p, li{
     font-size: 18px;
   }
 
@@ -96,7 +96,7 @@
     width: 300px;
   }
 
-  .post-text p{
+  .post-text p, li{
     font-size: 18px;
   }
 

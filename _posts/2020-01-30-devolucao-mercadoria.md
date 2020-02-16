@@ -13,9 +13,10 @@ Existem dois motivos pelas quais se realiza a devolução de uma mercadoria: def
 
 ## DEFEITO
 
-Neste caso  o Código de Defesa do Consumidor (CDC) prevê 02 prazos:
-a)30 dias para produtos duráveis
-b)90 dias para produtos não duráveis 
+Neste caso  o Código de Defesa do Consumidor (CDC) prevê 02 prazos:  
+ 
+a) 30 dias para produtos duráveis  
+b) 90 dias para produtos não duráveis 
 
 Os prazos acima são contados a partir da entrega efetiva do produto quando o vício é aparente ou de fácil constatação, ex: relógio veio sem um ponteiro. Quando o vício é oculto, ex: no lugar do frango a embalagem continha água congelada, a contagem inicia-se no momento em que ficar evidenciado o defeito. 
 
