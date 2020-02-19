@@ -32,7 +32,9 @@ outro tipo de depósito além daqueles realizados pelo empregador e não pode se
 
  ## POSSO OPTAR POR RECEBER MEU SALÁRIO NO BANCO QUE JÁ TENHO CONTA? 
 
- Apesar do empregado ser obrigado a manter a conta salário **é opção do trabalhador realizar a portabilidade do  salario para conta já existente em outro banco** ou até mesmo abrir uma nova conta em outra instituição financeira, conforme [Resolução Nº 4639/2018 do Banco Central](https://www.bcb.gov.br/pre/normativos/busca/downloadNormativo.asp?arquivo=/Lists/Normativos/Attachments/50535/Res_4639_v1_O.pdf). Neste caso o empregado deve procurar o banco que deseja receber o salário e formalizar a portabilidade.
+ Apesar do empregado ser obrigado a manter a conta salário **é opção do trabalhador realizar a portabilidade do  salário para conta já existente em outro banco** ou até mesmo abrir uma nova conta em outra instituição financeira, conforme [Resolução Nº 4639/2018 do Banco Central](https://www.bcb.gov.br/pre/normativos/busca/downloadNormativo.asp?arquivo=/Lists/Normativos/Attachments/50535/Res_4639_v1_O.pdf). Neste caso o empregado deve procurar o banco que deseja receber o salário e formalizar a portabilidade.
+ 
  Frisa-se que o banco escolhido pelo empregador 
 deve assegurar que o salário esteja disponível na conta que o empregado escolheu na portabilidade até às 12 horas do mesmo dia em que o empregador pagar o salário.
+
 **A transferência automática dos recursos por meio da portabilidade salarial é gratuita**. 
