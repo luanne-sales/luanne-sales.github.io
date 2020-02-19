@@ -87,4 +87,5 @@ O recolhimento do INSS sobre o valor do seguro, por sua vez, só começará a pa
 Por se tratar de uma Medida Provisória ela  perderá sua eficácia caso não seja aprovada como Lei pelo Congresso Nacional no prazo máximo de 120 dias, contados da sua publicação (12/11/2019). Frisa-se que esse prazo fica suspenso durante o período do recesso do Congresso Nacional (23 de dezembro a 01 de fevereiro). 
 ## LINKS ÚTEIS:
 [Entenda como funciona o andamento de uma Medida Provisória](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/medida-provisoria).
+
 [Consulte o andamento da MP que instituiu o Programa Verde e Amarelo](https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/139757).
