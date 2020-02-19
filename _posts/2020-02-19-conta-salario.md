@@ -15,10 +15,10 @@ A empresa pode optar por realizar os pagamentos dos salário no banco que melhor
 **A conta salário** é uma conta **aberta** por **iniciativa** e solicitação do **empregador** para efetuar o pagamento do salário de seus empregados. Ela nao admite 
 outro tipo de depósito além daqueles realizados pelo empregador e não pode ser movimentada por cheque.
 
-##EXISTE COBRANÇA DE TARIFAS NA CONTA SALÁRIO?## 
+## EXISTE COBRANÇA DE TARIFAS NA CONTA SALÁRIO? 
 **Em regra não pode haver cobrança** de tarifas pela utilização da conta salário. Mas alguns serviços, considerados extras, são cobrados pela instituição financeira.
 
-###O banco não pode cobrar tarifas pelos seguintes serviços:### 
+### O banco não pode cobrar tarifas pelos seguintes serviços:
 
 1. Fornecimento de cartão magnético, exceto nos casos de pedidos de reposição decorrentes de perda, roubo, danificação e outros casos em que a instituição financeira não pode ser responsabilizada;
 2. Realização de até cinco saques, por evento de crédito;
@@ -30,7 +30,7 @@ outro tipo de depósito além daqueles realizados pelo empregador e não pode se
  
  **Atenção**! As Bancos são obrigadas a divulgarem em suas dependências ou em suas páginas na internet todas as tarifas cobradas e os respectivos serviços. 
 
- ##POSSO OPTAR POR RECEBER MEU SALÁRIO NO BANCO QUE JÁ TENHO CONTA?## 
+ ## POSSO OPTAR POR RECEBER MEU SALÁRIO NO BANCO QUE JÁ TENHO CONTA? 
 
  Apesar do empregado ser obrigado a manter a conta salário **é opção do trabalhador realizar a portabilidade do  salario para conta já existente em outro banco** ou até mesmo abrir uma nova conta em outra instituição financeira, conforme [Resolução Nº 4639/2018 do Banco Central](https://www.bcb.gov.br/pre/normativos/busca/downloadNormativo.asp?arquivo=/Lists/Normativos/Attachments/50535/Res_4639_v1_O.pdf). Neste caso o empregado deve procurar o banco que deseja receber o salário e formalizar a portabilidade.
  Frisa-se que o banco escolhido pelo empregador 
