@@ -26,7 +26,7 @@ Pessoas resgatadas de  regime de trabalho forçado ou de escravidão e todos **o
 2. **Segunda solicitação:**
     - No **mínimo** 09 meses nos últimos 12  meses imediatamente anteriores à data de dispensa
 
-3. Demais solicitações
+3. **Demais solicitações**
     - No **mínimo** 06 meses imediatamente anteriores à data de dispensa
 
 **Em todos os três casos citados** acima o requerente não poderá estar recebendo qualquer benefício previdenciário de prestação continuada, salvo o auxílio-acidente, o auxílio suplementar (seguro de acidentes do trabalho) ou o abono de permanência em serviço previsto na lei 5.890/1973.
@@ -71,21 +71,27 @@ O número de benefícios variará, conforme as regras abaixo, de 03 a 05 meses:
     - 04 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 12  meses e, no máximo, 23 (vinte e três) meses, no período de referência
     - 05 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 24 meses, no período de referência;     
 2. **Segunda solicitação:**
-    - 03 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 09 meses e, no máximo, 11 meses, no período de referência;      
+   - 03 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 09 meses e, no máximo, 11 meses, no período de referência;      
     - 04  parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 12 meses e, no máximo, 23 meses, no período de referência; 
     - 05 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 24 meses, no período de referência;      
-C) A partir da terceira solicitação:
--03 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 06 meses e, no máximo, 11 meses, no período de referência;
--04 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 12 meses e, no máximo, 23 meses, no período de referência; 
--05 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 24 meses, no período de referência.        
+3. **A partir da terceira solicitação:**
+
+   - 03 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 06 meses e, no máximo, 11 meses, no período de referência;
+   - 04 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 12 meses e, no máximo, 23 meses, no período de referência; 
+   - 05 parcelas, se o trabalhador comprovar vínculo empregatício de, no mínimo, 24 meses, no período de referência.        
 
 ## O INSS É DESCONTADO NO PERÍODO QUE A PESSOA RECEBE O SEGURO DESEMPREGO?
 
-**Atualmente não é descontado INSS** do valor recebido a título de seguro desemprego. 
-Porém, em novembro de 2019 o presidente publicou a Medida Provisória do Programa Verde Amarelo (MP 905/2019). Para compensar alguns benefícios concedidos aos empregadores que aderirem o programa a medida estabelece a obrigação de recolhimento do INSS sobre o valor do seguro desemprego. O período de recolhimento, por sua vez, passará a contar para o cálculo do INSS.
-O recolhimento do INSS sobre o valor do seguro, por sua vez, só começará a partir de março de 2020, isso se essa regra não for derrubada no Congresso ou na Justiça antes.
-Por se tratar de uma Medida Provisória ela  perderá sua eficácia caso não seja aprovada como Lei pelo Congresso Nacional no prazo máximo de 120 dias, contados da sua publicação (12/11/2019). Frisa-se que esse prazo fica suspenso durante o período do recesso do Congresso Nacional (23 de dezembro a 01 de fevereiro). 
-## LINKS ÚTEIS:
-[Entenda como funciona o andamento de uma Medida Provisória](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/medida-provisoria).
+**Atualmente não é descontado INSS do valor recebido a título de seguro desemprego.** 
+Porém, em novembro de 2019 o Presidente da República publicou a Medida Provisória 905/2019 ( Programa Verde Amarelo) que estabelece o desconto do INSS das parcelas devidas pelo Seguro Desemprego.  Essa medida é para compensar alguns benefícios concedidos aos empregadores que aderirem ao programa, o período, por sua vez, será contado para aposentadoria.
 
-[Consulte o andamento da MP que instituiu o Programa Verde e Amarelo](https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/139757).
+O recolhimento do INSS sobre o valor do seguro, por sua vez, só começará a partir de março de 2020, isso se essa regra não for derrubada no Congresso ou na Justiça antes.
+
+Por se tratar de uma Medida Provisória ela  perderá sua eficácia caso não seja aprovada como Lei pelo Congresso Nacional no prazo máximo de 120 dias, contados da sua publicação (12/11/2019). 
+
+Frisa-se que esse prazo ficou suspenso durante o período do recesso do Congresso Nacional (23 de dezembro de 2019 a 01 de fevereiro de 2020). 
+
+## LINKS ÚTEIS:
+[Entenda como funciona o andamento de uma Medida Provisória](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/medida-provisoria)
+
+[Consulte o andamento da MP que instituiu o Programa Verde e Amarelo](https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/139757)
