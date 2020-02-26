@@ -2,8 +2,8 @@
 layout: post
 title: A cobrança de taxa de conveniência na compra de ingresso virtual é prática abusiva?
 author: Luanne Santos Sales
-image_path: /assets/img/blog/seguro-desemprego
-image_description: carteira de trabalho
+image_path: /assets/img/blog/taxa-conveniencia
+image_description: ticket
 categories: [Direito do Consumidor]
 keywords: taxa de conveniência,compra de ingresso virtual, ingresso virtual, Resp 1.737.428, 
 description: Informações sobre cobrança de taxa de conveniência na compra de ingresso virtual

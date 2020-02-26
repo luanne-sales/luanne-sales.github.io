@@ -9,7 +9,7 @@ keywords: CDC, Devolução de mercadoria, Direito, 30 dias, 90 dias, Defeito, Su
 description: Informações sobre devolução de produto
 ---
 Quando o consumidor realiza a compra de uma mercadoria, seja pela internet ou em loja física, o desejo é que não necessite devolver o produto. Mas às vezes a devolução ou a troca são necessárias.
-**Existem dois motivos pelas quais se realiza a devolução de uma mercadoria: defeito ou arrependimento.**
+**Existem dois motivos pelos quais se realiza a devolução de uma mercadoria: defeito ou arrependimento.**
 
 ## DEFEITO
 
