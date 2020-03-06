@@ -34,5 +34,7 @@ Se você não conseguir regularizar até 06 de maio de de 2020 a **[Resolução 
 
 Importante lembrar que **ainda assim deverá justificar a ausência às urnas** a partir do dia seguinte ao das eleições **no prazo de até 60 dias após o pleito eleitoral** senão deverá pagar multa por cada turno.
 
+Quer saber se o seu título foi cancelado? Acesse o site do [TSE](http://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/copy_of_consulta-por-nome) e descubra como está sua situação.
+
 Ainda possui dúvida e deseja esclarecer? Entre em contato conosco através do botão abaixo.
 
