@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Meu título de eleitor foi cancelado, e agora?
-author: Luanne S Sales
+author: Luanne Santos Sales
 image_path: /assets/img/blog/titulo-cancelado
 image_description: uma pessoa preocupada
-categories: [Direito do Eleitoral]
+categories: [Direito Eleitoral]
 keywords: Título de eleitor cancelado, perdi o título de eleitor, resolução 23.601 TSE 
 description: informações sobre o que fazer em caso do título de eleitor ter sido cancelado
 ---
