@@ -1,1 +1,34 @@
-  <footer>Matheus Nunes - 2020</footer>
+  <footer>
+    <div id="footer-content">
+      <div id="navigation-footer">
+        {% for item in site.data.navigation %}
+          <div>
+            <a href="{{ item.link | relative_url }}" 
+            class="{% if page.url == item.dir %}current{% else %}unselected-dark{% endif %}">
+              {{ item.name }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      <div id="social-footer">
+        <div>
+          <a class="blog-item-link-dark row-align" href="https://www.linkedin.com/company/luanne-sales-advocacia/about/">
+            <i class="fab fa-linkedin fa-2x"></i> /luanne-sales-advocacia
+          </a>
+        </div>
+        <div>
+          <a class="blog-item-link-dark row-align" href="https://www.instagram.com/luannesalesadvocacia/">
+            <i class="fab fa-instagram fa-2x"></i> /luannesalesadvocacia
+          </a>
+        </div>
+        <div>
+          <a class="blog-item-link-dark row-align" href="https://www.facebook.com/luannesalesadvocacia">
+            <i class="fab fa-facebook-square fa-2x"></i> <span>/luannesalesadvocacia</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="site-author">
+      Matheus Nunes - 2020
+    </div>
+  </footer>

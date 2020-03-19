@@ -124,6 +124,10 @@ body>header div a img {
   color: #444444;
 }
 
+.unselected-dark{
+  color: #cacaca;
+}
+
 #nav-social{
   display: flex;
   justify-content: space-around;
@@ -489,6 +493,14 @@ ________________________________________________*/
   color: #D0AE5E;
 }
 
+.blog-item-link-dark{
+  color: #cacaca
+}
+
+.blog-item-link-dark:hover, .unselected-dark:hover{
+  color: rgb(219, 197, 146)
+}
+
 .blog-categories h2{
   margin-bottom: 40px;
   text-align: center;
@@ -597,8 +609,39 @@ body>footer{
   background-color: #22242C;
   color: #f4f7f8;
   text-align: center;
-  line-height: 100px;
   bottom: 0;
+}
+
+#footer-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#social-footer, #navigation-footer{
+  margin-top: 10px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navigation-footer{
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.row-align{
+  display: flex;
+  align-items: center;
+}
+
+#site-author{
+  line-height: 100px;
 }
 
 /* Pagination
