@@ -1,20 +1,20 @@
 ---
 ---
 html, body{
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    font-family:  Helvetica neue, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF;
+  font-family:  Helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
 }
 
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -22,7 +22,7 @@ a{
 }
 
 :root {
-    --header-height: 100px;
+  --header-height: 100px;
 }
 
 /* Header
@@ -665,18 +665,18 @@ body>footer{
 }
 
 a.page-link {
-    background-color: transparent;
-    color: #444444;
+  background-color: transparent;
+  color: #444444;
 }
 
 a.page-link:hover{
-    color: #212529;
+  color: #212529;
 }
 
 .page-item.active .page-link{
-    color: #212529;
-    background-color: #e9ecef;
-    border-color: #e9ecef;
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
 }
 
 .page-link:hover {
