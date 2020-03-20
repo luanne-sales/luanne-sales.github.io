@@ -1,5 +1,5 @@
 const createButton = (elem, page, link, url, active=false) => {
-  let li = document.createElement('li')
+  const li = document.createElement('li')
   li.className = active ? 'page-item active' : 'page-item'
   page = (page > 1) ? '/blog/page'+  page : '/blog'
   li.insertAdjacentHTML('beforeend',
@@ -18,7 +18,7 @@ const buttonInfo = page => {
 }
 
 const paginate = (page, maxPage, url) => {
-  let elem = document.getElementById('paginator')
+  const elem = document.getElementById('paginator')
 
   elem.innerHTML = ''
 
@@ -47,4 +47,3 @@ const paginate = (page, maxPage, url) => {
   createButton(elem, maxPage, buttonInfo(maxPage).last, url)
 
 }
-
