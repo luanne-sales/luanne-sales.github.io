@@ -354,12 +354,12 @@ ________________________________________________*/
 
 #contato-flex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap-reverse;
 }
 
 #contato-1, #contato-2{
-  width: 400px;
+  width: 300px;
   margin-bottom: 20px;
 }
 
