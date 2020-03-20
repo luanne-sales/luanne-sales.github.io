@@ -9,7 +9,35 @@
 
   <nav id="navigation-bar">
 
-    <div id="horizontal-list"></div>
+    <div id="horizontal-list">
+      <ul id="navigation-list" class="horizontal-navigation-list">
+        {% for item in site.data.navigation %}
+          <li>
+            <a href="{{ item.link | relative_url }}" 
+            class="{% if page.url == item.dir %}current{% else %}unselected{% endif %}">
+              {{ item.name }}
+            </a>
+          </li>
+        {% endfor %}
+          <li id="nav-social">
+              <div>
+                <a class="blog-item-link" href="https://www.linkedin.com/company/luanne-sales-advocacia/about/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+              <div>
+                <a class="blog-item-link" href="https://www.instagram.com/luannesalesadvocacia/">
+                  <i class="fab fa-instagram"></i> 
+                </a>
+              </div>
+              <div>
+                <a class="blog-item-link" href="https://www.facebook.com/luannesalesadvocacia">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </div>
+          </li>
+      </ul>
+    </div>
 
     <button id="menu-button" onclick="sideMenu()">
       <div></div>
@@ -18,35 +46,6 @@
     </button>
 
   </nav>
-
-
-  <ul id="navigation-list">
-    {% for item in site.data.navigation %}
-      <li>
-        <a href="{{ item.link | relative_url }}" 
-        class="{% if page.url == item.dir %}current{% else %}unselected{% endif %}">
-          {{ item.name }}
-        </a>
-      </li>
-    {% endfor %}
-      <li id="nav-social">
-          <div>
-            <a class="blog-item-link" href="https://www.linkedin.com/company/luanne-sales-advocacia/about/">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-          <div>
-            <a class="blog-item-link" href="https://www.instagram.com/luannesalesadvocacia/">
-              <i class="fab fa-instagram"></i> 
-            </a>
-          </div>
-          <div>
-            <a class="blog-item-link" href="https://www.facebook.com/luannesalesadvocacia">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-          </div>
-      </li>
-  </ul>
 
 </header>
 
