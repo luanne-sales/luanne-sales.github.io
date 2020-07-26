@@ -1,20 +1,20 @@
 ---
 ---
 html, body{
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    font-family:  Helvetica neue, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF;
+  font-family:  Helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
 }
 
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -22,7 +22,7 @@ a{
 }
 
 :root {
-    --header-height: 100px;
+  --header-height: 100px;
 }
 
 /* Header
@@ -122,6 +122,10 @@ body>header div a img {
 
 .unselected{
   color: #444444;
+}
+
+.unselected-dark{
+  color: #cacaca;
 }
 
 #nav-social{
@@ -350,12 +354,12 @@ ________________________________________________*/
 
 #contato-flex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap-reverse;
 }
 
 #contato-1, #contato-2{
-  width: 400px;
+  width: 300px;
   margin-bottom: 20px;
 }
 
@@ -489,6 +493,14 @@ ________________________________________________*/
   color: #D0AE5E;
 }
 
+.blog-item-link-dark{
+  color: #cacaca
+}
+
+.blog-item-link-dark:hover, .unselected-dark:hover{
+  color: rgb(219, 197, 146)
+}
+
 .blog-categories h2{
   margin-bottom: 40px;
   text-align: center;
@@ -597,8 +609,39 @@ body>footer{
   background-color: #22242C;
   color: #f4f7f8;
   text-align: center;
-  line-height: 100px;
   bottom: 0;
+}
+
+#footer-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#social-footer, #navigation-footer{
+  margin-top: 10px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navigation-footer{
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.row-align{
+  display: flex;
+  align-items: center;
+}
+
+#site-author{
+  line-height: 100px;
 }
 
 /* Pagination
@@ -622,18 +665,18 @@ body>footer{
 }
 
 a.page-link {
-    background-color: transparent;
-    color: #444444;
+  background-color: transparent;
+  color: #444444;
 }
 
 a.page-link:hover{
-    color: #212529;
+  color: #212529;
 }
 
 .page-item.active .page-link{
-    color: #212529;
-    background-color: #e9ecef;
-    border-color: #e9ecef;
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #e9ecef;
 }
 
 .page-link:hover {
