@@ -51,13 +51,15 @@ body>header {
   align-items: center;
 }
 
-#logo div{
+#logo h1{
+  line-height: 20px;
   font-family: Gruppo, 'Nixie One', cursive;
   margin-left: 10px;
   text-align: center;
 }
 
 #logo1{
+  display: block;
   font-size: 20px;
   color: #ba9a39;
   font-weight: 800;
