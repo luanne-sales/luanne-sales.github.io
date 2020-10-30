@@ -51,8 +51,7 @@ body>header {
   align-items: center;
 }
 
-#logo h1{
-  line-height: 20px;
+#logo div{
   font-family: Gruppo, 'Nixie One', cursive;
   margin-left: 10px;
   text-align: center;
@@ -182,8 +181,13 @@ _______________________________________________*/
   color: #FFFFFF;
 }
 
-#presentation h2{
+#presentation h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#presentation h1 {
+  font-weight: normal;
+  font-size: 24px;
 }
 
 #whats-btn{
@@ -395,7 +399,7 @@ ________________________________________________*/
   height: 100%;
 }
 
-.side-header h2{
+.side-header h1{
   padding-top: 125px;
   margin-top: 0;
 }
